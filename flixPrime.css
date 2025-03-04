@@ -9,6 +9,10 @@ body {
 .navbar.scrolled {
     background-color: black;
 }
+
+.navbar-link:hover{
+    background-color: #ff6b00;
+}
 .carousel-indicators {
     bottom: 20px;
 }
@@ -168,4 +172,12 @@ body {
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 1000;
+}
+
+.scroll-top.visible {
+    opacity: 1;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
 }
