@@ -117,3 +117,16 @@ body {
 .scroll-top.visible {
     opacity: 1;
 }
+
+.devices-section {
+    padding: 80px 0;
+    background-color: #0a0a0a;
+}
+
+.device-card {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
