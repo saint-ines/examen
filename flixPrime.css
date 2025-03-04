@@ -129,40 +129,6 @@ body {
     opacity: 1;
 }
 
-.devices-section {
-    padding: 80px 0;
-    background-color: #0a0a0a;
-}
-
-.device-card {
-    background-color: #1a1a1a;
-    border-radius: 10px;
-    padding: 30px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.device-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(255, 107, 0, 0.2);
-}
-
-.device-icon {
-    background-color: #ff6b00;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 20px;
-}
-
-.device-icon i {
-    color: white;
-    font-size: 40px;
-}
-
 .scroll-top {
     position: fixed;
     bottom: 20px;
@@ -187,4 +153,100 @@ body {
 .section-title {
     text-align: center;
     margin-bottom: 50px;
+}
+
+.device-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+.device-card {
+    background-color: #1E1E1E;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.device-card:hover {
+    transform: scale(1.05);
+}
+.device-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem;
+}
+
+.device-icon i {
+    color: #ff6b00;
+    font-size: 2.5rem;
+}
+.content-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #373636;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.content-card {
+    background-color: #1E1E1E;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.content-card:hover {
+    transform: scale(1.03);
+}
+
+.content-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.content-icon i {
+    color: #ff6b00;
+    font-size: 1.5rem;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff6b00;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
