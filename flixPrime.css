@@ -4,6 +4,7 @@ body {
 .navbar {
     background-color: transparent;
     transition: background-color 0.3s ease;
+    position: fixed;
 }
 .navbar.scrolled {
     background-color: black;
@@ -12,6 +13,9 @@ body {
     bottom: 20px;
 }
 
+.flix {
+    color: #ff6b00;
+}
 .carousel-indicators button {
     width: 10px;
     height: 10px;
