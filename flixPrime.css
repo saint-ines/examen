@@ -10,6 +10,13 @@ body {
     background-color: black;
 }
 
+.dropdown-menu{
+    background-color: #535151;
+    color: rgb(255, 155, 5);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
 .navbar-link:hover{
     background-color: #ff6b00;
 }
