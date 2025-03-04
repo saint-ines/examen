@@ -19,3 +19,15 @@ body {
     background-color: white;
     opacity: 0.5;
 }
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+.btn-orange {
+    background-color: #ff6b00;
+    color: white;
+}
+.btn-orange:hover {
+    background-color: #ff8533;
+    color: white;
+}
