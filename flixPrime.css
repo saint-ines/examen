@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+.navbar.scrolled {
+    background-color: black;
+}
+.carousel-indicators {
+    bottom: 20px;
+}
+
+.carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.5;
+}
